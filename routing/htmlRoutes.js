@@ -1,0 +1,15 @@
+var path = require('path');
+
+//ROUTING
+
+module.exports = function(app){
+//the GET route that leads to home.html - displays home page
+
+app.get("/survey", function (req, res){
+    res.sendFile(path.join(name + "/survey.html"));
+});
+
+app.use(function (req, res){
+    res.sendFile(path.join(name + "/home.html"));
+});
+}
