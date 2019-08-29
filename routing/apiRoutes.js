@@ -1,5 +1,5 @@
 // var path = require("path")
-var friendsList = require("/Users/Kudiland/gt/HW-Week/week-11/Friend-Finder/app/data/friends");
+var friendsList = require("./data/friends.js");
 
 module.exports = function(app){
     app.get("./api/friends.js", function(req,res){
