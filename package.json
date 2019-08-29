@@ -1,0 +1,31 @@
+{
+  "name": "friend-finder",
+  "version": "1.0.0",
+  "description": "Week 11 Homework for Bootcamp",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7",
+    "heroku": "^7.29.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bfields216/Friend-Finder.git"
+  },
+  "keywords": [
+    "Friend",
+    "Finder",
+    "Heroku"
+  ],
+  "author": "Brandon Fields",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bfields216/Friend-Finder/issues"
+  },
+  "homepage": "https://github.com/Bfields216/Friend-Finder#readme"
+}

@@ -1,7 +1,7 @@
 
 
 
-var friendList = [
+var friendsList = [
 
 
     {
@@ -22,4 +22,4 @@ var friendList = [
     }
 ]
 
-module.exports = friendList;
+module.exports = friendsList;

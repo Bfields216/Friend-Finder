@@ -10,6 +10,6 @@ app.get("/survey", function (req, res){
 });
 
 app.use(function (req, res){
-    res.sendFile(path.join(__dirname, "../public/survey.httml"));
+    res.sendFile(path.join(__dirname, "../public/survey.html"));
 });
 }

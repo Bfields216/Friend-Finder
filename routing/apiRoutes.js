@@ -1,5 +1,5 @@
 // var path = require("path")
-var friendList = require("../data/friends.js");
+var friendsList = require("/Users/Kudiland/gt/HW-Week/week-11/Friend-Finder/app/data/friends");
 
 module.exports = function(app){
     app.get("./api/friends.js", function(req,res){
@@ -11,7 +11,6 @@ module.exports = function(app){
         var newFriends = req.body.scores;
         var scores1 = [];
         var bestMatch = 0;
-        var friendCount = 0;
 
         for(var i=0; i<friendsList.length; i++){
             var scoresDiff = 0;
