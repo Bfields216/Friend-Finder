@@ -5,7 +5,7 @@ var path = require('path');
 module.exports = function(app){
 //the GET route that leads to home.html - displays home page
 
-app.use("/survey", function (req, res){
+app.get("/survey", function (req, res){
     res.sendFile(path.join(__dirname, "../public/home.html"));
 });
 
