@@ -14,8 +14,8 @@ var PORT = process.env.PORT || 5000;
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-require("./routing/apiRoutes")(app);
-require("./routing/htmlRoutes")(app);
+require("./routing/apiRoutes.js")(app);
+require("./routing/htmlRoutes.js")(app);
 
 // Starts the server to begin listening
 app.listen(PORT, function () {
