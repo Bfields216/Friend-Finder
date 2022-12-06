@@ -4,7 +4,7 @@
   "description": "Week 11 Homework for Bootcamp",
   "main": "server.js",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "path": "^0.12.7",
     "heroku": "^7.29.0"
   },
